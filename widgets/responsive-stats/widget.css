@@ -1,0 +1,120 @@
+/*  */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Mono:wght@700&display=swap");
+
+/* Float four columns side by side */
+.columnCovidKashmirOrg {
+float: left;
+width: 100%;
+padding: 0 10px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowCovidKashmirOrg {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rowCovidKashmirOrg:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+.columnCovidKashmirOrg {
+width: 100%;
+display: block;
+
+}
+}
+
+/* Style the counter cards */
+.cardCovidKashmirOrg {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 20px;
+padding-left: 20%;
+background-color: #f1f1f1;
+height: 120px;
+
+}
+
+@media screen and (max-width: 600px) {
+.cardCovidKashmirOrg {
+padding-left: 5%;
+
+}
+}
+
+.in-text-containerCovidKashmirOrg{
+
+ min-width: 15%;
+ float: left;
+ border: 2px solid black;
+ margin: 2px;
+ padding: 4px;
+ text-align: center;
+ 
+}
+.countCovidKashmirOrg{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.count-labelCovidKashmirOrg{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.in-totalCovidKashmirOrg{
+   
+    color: #ff073a;
+    border: 2px solid #ff073a;
+    border-radius: 5px;
+}
+
+.in-recoveredCovidKashmirOrg{
+     
+ color: #28a745;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+}
+
+.in-deathCovidKashmirOrg{
+     color: rgba(108, 117, 125, 1);
+    border: 2px solid rgba(108, 117, 125, 1);
+    border-radius: 5px;
+}
+.in-activeCovidKashmirOrg{
+    
+    color: rgba(0, 123, 255, 1);
+    border: 2px solid rgba(0, 123, 255, 1);
+    border-radius: 5px;
+}
+
+.title-bar-CovidKashmirOrg{
+    background-color: white;
+    padding: 4px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+  
+}
+
+.title-bar-div-CovidKashmirOrg{
+    
+    margin-bottom: 8px;
+}
+
+#blink-text-CovidKashmirOrg{
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border-radius: 8px;
+}
+#data-source-text-CovidKashmirOrg{
+ font-family: 'Roboto Mono', monospace;
+ font-size: 12px;
+
+}
