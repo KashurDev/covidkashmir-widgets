@@ -34,7 +34,7 @@ function f2(e, c) {
 }
 
 function p(d) {
-    document.getElementById("covid-widget").innerHTML = content;
+    document.getElementById("covidkashmir-widget").innerHTML = content;
     let c = document.getElementById("covid-widget-container");
     let t1 = document.getElementById("covid-widget-title");
     let t2 = document.getElementById("covid-widget-text");

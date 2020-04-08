@@ -42,7 +42,7 @@ let content = `
   </div>
     </div>`;
 
- document.getElementById("covidKashmirOrgResponsiveStats").innerHTML = content;
+ document.getElementById("covidkashmir-widget").innerHTML = content;
 
 //  Live Blinking Code
 // This code makes the span next to J&K stats text blink
