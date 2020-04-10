@@ -5,7 +5,7 @@
   width: 250px;
   height:auto;
   border-radius: 50px 50px 10px 10px;
-  box-shadow: 2px 0 5px;
+  box-shadow: black 2px 0 5px;
   font-family: 'Roboto'
 }
 
@@ -29,17 +29,17 @@
 .covid-widget-element {
   height: 84px;
   padding-top: 8px;
-  box-shadow: 0 2px 2px;
+  box-shadow: black 0 2px 2px;
 }
 .covid-widget-element:last-child {
   border-radius:0px 0px 10px 10px;
 }
-#covid-widget-inner span.covid-widget-title { 
+#covid-widget-inner p.covid-widget-title { 
   color: white;
-  left: 16px;
+  margin-left: 16px;
   position: absolute;
 }
-#covid-widget-inner span.covid-widget-data { 
+#covid-widget-inner p.covid-widget-data { 
   color: white; 
   font-size: 48px; 
   line-height:84px;

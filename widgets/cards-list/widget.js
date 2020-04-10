@@ -5,34 +5,34 @@ let c = `<div id="covid-widget-outer" class="outer">
   </div>
   <div id="covid-widget-inner" class="inner">
     <div  class="covid-widget-element">
-      <span class="covid-widget-title">
+      <p class="covid-widget-title">
       Total
-    </span>
-    <span id="covid-data-total" class="covid-widget-data">
+    </p>
+    <p id="covid-data-total" class="covid-widget-data">
       
-    </span>
+    </p>
     </div>
     <div  class="covid-widget-element">
-      <span class="covid-widget-title">
+      <p class="covid-widget-title">
       Active
-    </span>
-    <span id="covid-data-active" class="covid-widget-data">
-    </span>
+    </p>
+    <p id="covid-data-active" class="covid-widget-data">
+    </p>
     </div>
     <div  class="covid-widget-element">
-      <span class="covid-widget-title">
+      <p class="covid-widget-title">
       Recovered
-    </span>
-    <span id="covid-data-recovered" class="covid-widget-data">
-    </span>
+    </p>
+    <p id="covid-data-recovered" class="covid-widget-data">
+    </p>
     </div>
     <div  class="covid-widget-element">
-      <span class="covid-widget-title">
+      <p class="covid-widget-title">
       Deceased
-    </span>
-    <span id="covid-data-deceased" class="covid-widget-data">
+    </p>
+    <p id="covid-data-deceased" class="covid-widget-data">
       
-    </span>
+    </p>
     </div>
   </div>
 </div>`
