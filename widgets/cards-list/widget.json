@@ -1,0 +1,9 @@
+{
+    "name":"cards-list",
+    "contributor":{
+        "name":"Haider Ali Punjabi",
+        "username": "haideralipunjabi"
+    },
+    "css":true,
+    "classes": ["blue","maroon", "green", "grey"]
+}

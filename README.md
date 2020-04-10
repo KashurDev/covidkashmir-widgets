@@ -27,6 +27,7 @@ Repository to Store Embeddable Widgets from the site [covidkashmir.org](https://
                 "username": "<your-github-username>"
             },
             "css": true | false     // If your widget has an associated .css file or not
+            "classes": []           // Array of options for your widget using classes (colors,themes,etc)
         }
     ```
 

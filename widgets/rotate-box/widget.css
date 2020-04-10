@@ -36,9 +36,11 @@
     display:block; 
     text-align:center; 
     width:100%; 
-    height:100%; 
+    height:70px;
+    line-height: 70px; 
     font-weight: 800; 
     font-size: 50px;
+    color: black;
   }
   #covid-widget-link {
     display:block;
@@ -47,4 +49,5 @@
     height:100%;
     font-weight: 100; 
     font-size: 20px;
+    color: black;
   }

@@ -1,0 +1,79 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+#covid-widget-outer{
+  width: 250px;
+  height:auto;
+  border-radius: 50px 50px 10px 10px;
+  box-shadow: 2px 0 5px;
+  font-family: 'Roboto'
+}
+
+#covid-widget-title {
+  height: 48px;
+  text-align:center;
+  box-shadow: 0px 20px;
+  
+}
+#covid-widget-title>span a {
+  color:white;
+  text-decoration: none;
+  line-height: 48px;
+  font-size: 24px;
+}
+#covid-widget-inner { 
+  height: auto;
+  text-align:center;
+  border-radius:0px 0px 10px 10px;
+}
+.covid-widget-element {
+  height: 84px;
+  padding-top: 8px;
+  box-shadow: 0 2px 2px;
+}
+.covid-widget-element:last-child {
+  border-radius:0px 0px 10px 10px;
+}
+#covid-widget-inner span.covid-widget-title { 
+  color: white;
+  left: 16px;
+  position: absolute;
+}
+#covid-widget-inner span.covid-widget-data { 
+  color: white; 
+  font-size: 48px; 
+  line-height:84px;
+}
+
+#covidkashmir-widget .outer {
+  background-color:#07213b; 
+}
+#covidkashmir-widget .inner {
+  background-color: #0d3153;
+}
+
+#covidkashmir-widget.blue .outer {
+  background-color:#07213b; 
+}
+#covidkashmir-widget.blue .inner {
+  background-color: #0d3153;
+}
+
+#covidkashmir-widget.maroon .outer {
+  background-color:#660000; 
+}
+#covidkashmir-widget.maroon .inner {
+  background-color: #990033;
+}
+#covidkashmir-widget.grey .outer {
+  background-color:#383D3B; 
+}
+#covidkashmir-widget.grey .inner {
+  background-color: #7C7C7C;
+}
+#covidkashmir-widget.green .outer {
+  background-color:#000F08; 
+}
+#covidkashmir-widget.green .inner {
+  background-color: #137044;
+}
