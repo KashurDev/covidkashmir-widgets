@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   40% {transform: translateY(-30px);} 
+   60% {transform: translateY(-15px);} 
+} 
+#covid-widget-outer {
+  width: fit-content;
+}
+#covidkashmir-widget {
+  color:black;
+}
+#covidkashmir-widget a {
+  color:inherit;
+  text-decoration: none;
+}
+.covid-widget-element {
+  width: 100px;
+  height: 100px; 
+  border-radius: 50%;
+  text-align:center;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.covid-widget-element:hover {
+  animation-name: bounce;
+  animation-duration: 1s;
+}
+.covid-widget-element.total {
+  background-image: linear-gradient(-45deg, #D8042B, #E2C2C6);
+}
+.covid-widget-element.active {
+  background-image: linear-gradient(-45deg, #77A1AA, #B9DFE8);
+}
+.covid-widget-element.deceased { 
+  background-image: linear-gradient(-45deg, #AAAAAA, #EDEDED);
+}
+.covid-widget-element.recovered {
+  background-image: linear-gradient(-45deg, #78ED2A, #AED693);
+}
+
+.covid-widget-element p:first-child{
+  line-height: 100px;
+  margin: auto;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.covid-widget-element p{
+  line-height: 20px;
+  margin: auto;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+#covid-widget-link {
+  line-height: 24px;
+  margin: auto;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+
+
