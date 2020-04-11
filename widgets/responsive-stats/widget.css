@@ -2,16 +2,24 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto+Mono:wght@700&display=swap");
 
+
+
 /* Float four columns side by side */
 .columnCovidKashmirOrg {
 float: left;
-width: 100%;
 padding: 0 10px;
+text-align: left;
+box-sizing: content-box;
+width: 100%;
+line-height: 1.2;
 
 }
 
 /* Remove extra left and right margins, due to padding */
-.rowCovidKashmirOrg {margin: 0 -5px;}
+.rowCovidKashmirOrg {
+    margin: 0 -5px;
+
+}
 
 /* Clear floats after the columns */
 .rowCovidKashmirOrg:after {
@@ -25,6 +33,7 @@ clear: both;
 .columnCovidKashmirOrg {
 width: 100%;
 display: block;
+
 
 }
 }
